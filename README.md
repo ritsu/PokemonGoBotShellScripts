@@ -7,7 +7,6 @@ Automatically runs groups of bots. Will stop and move on to the next group when 
 ## Requirements
 
 Any system that can run bash scripts.  
-Tested on RHEL.  
 May run on Windows with Cygwin or MinGW MSYS, but untested.  
 
 ## Setup
@@ -35,13 +34,13 @@ Command line arguments to `arun.sh` are explained in `autorun.sh`
 ## Notes
 
 ####check.sh
-Can be run to view the live output of the currently running bot(s).
+View the live output of the currently running bot(s).
 
 ####check-profile.sh
-Prints ProfileLoop lines from the log
+View ProfileLoop output from currently running bot(s).
 
 ####check-bot.sh
-Prints BotLoop lines from the log
+View BotLoop output from currently running bot(s).
 
 ####acheck.sh
 When writing to `alog.txt`, `\033[F` is used to overwrite the previous line when displaying repetitive status updates. Terminal windows that are too small, or file viewers that don't interpret escape codes (e.g. `less` without the `-r` flag) may have issues.
