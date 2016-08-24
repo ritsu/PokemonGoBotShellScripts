@@ -1,5 +1,3 @@
-<snippet>
-  <content><![CDATA[
 # PokemonGoBotShellScripts
 
 A few shell scripts to help manage [PokemonGoBot](https://github.com/jabbink/PokemonGoBot)
