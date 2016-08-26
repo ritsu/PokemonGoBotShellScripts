@@ -6,8 +6,8 @@ Automatically runs groups of bots. Will stop and move on to the next group when 
 
 ## Requirements
 
-Any system that can run bash scripts. 
-Tested on Linux.
+Any system that can run bash scripts.  
+Tested on Linux.  
 May run on Windows with Cygwin or MinGW MSYS, but untested.  
 
 ## Setup
