@@ -6,7 +6,8 @@ Automatically runs groups of bots. Will stop and move on to the next group when 
 
 ## Requirements
 
-Any system that can run bash scripts.  
+Any system that can run bash scripts. 
+Tested on Linux.
 May run on Windows with Cygwin or MinGW MSYS, but untested.  
 
 ## Setup
@@ -28,7 +29,7 @@ Change other settings in `autorun.sh` as you see fit.
 ./astop.sh
 ```
 
-`arun.sh` calls `autorun.sh` via `nohup`  
+`arun.sh` calls `autorun.sh` via [nohup](https://en.wikipedia.org/wiki/Nohup) for convenience when running bots on remote servers.  
 Command line arguments to `arun.sh` are explained in `autorun.sh`
 
 ## Notes
