@@ -8,7 +8,7 @@ Automatically runs groups of bots. Will stop and move on to the next group when 
 
 Any system that can run bash scripts.  
 Tested on Linux.  
-May run on Windows with Cygwin or MinGW MSYS, but untested.  
+May run on Windows with [Cygwin](https://www.cygwin.com/) or [MinGW MSYS](http://www.mingw.org/wiki/msys), but untested.  
 
 ## Setup
 
@@ -16,8 +16,8 @@ Download files.
 `chmod +x *.sh`  
 Modify `run.sh` to point to your jar file (and remove --spring.main.web-environment=false if you want).  
 Put your [JSON files](https://github.com/jabbink/PokemonGoBot/blob/develop/json-template.json) in separate directories named <i>bot-settings-xxx</i> where <i>xxx</i> can be anything. If a directory has multiple JSON files, they will be run together as a bot group.  
-Define the `BOTS` array in `autorun.sh` according to the directories you created above.  
-Change other settings in `autorun.sh` as you see fit.  
+Define the `BOTS` array in [autorun.sh](https://github.com/ritsu/PokemonGoBotShellScripts/blob/master/autorun.sh) according to the directories you created above.  
+Change other settings in [autorun.sh](https://github.com/ritsu/PokemonGoBotShellScripts/blob/master/autorun.sh) as you see fit.  
 
 !!! <b>IMPORTANT</b> - Make sure you move ALL your JSON files out from <i>bot-settings</i> into <i>bot-settings-xxx</i>, as the <i>bot-settings</i> directory is cleared each time a new bot group is run.  
 
