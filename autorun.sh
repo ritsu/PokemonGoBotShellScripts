@@ -125,7 +125,7 @@ update_xp() {
   # get starting xp if not set
   for i in "${!BOT_NAMES[@]}"; do
     if [[ -z ${INITIAL_XP[i]} ]]; then
-      xp="$(grep -m1 Experience log.txt | awk '{print $9}')"
+      xp="$(grep -m1 Experience log.txt | awk '{print $9}' | sed -s 's/;//')"
       if [[ -n $xp ]]; then
         (( INITIAL_XP[i] = xp ))
       fi
