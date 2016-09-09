@@ -12,7 +12,7 @@ May run on Windows with [Cygwin](https://www.cygwin.com/) or [MinGW MSYS](http:/
 
 ## Setup
 
-Download files.  
+Download files to your PokemonGoBot directory.
 `chmod +x *.sh`  
 Modify `run.sh` to point to your jar file (and remove --spring.main.web-environment=false if you want).  
 Put your [JSON files](https://github.com/jabbink/PokemonGoBot/blob/develop/json-template.json) in separate directories named <i>bot-settings-xxx</i> where <i>xxx</i> can be anything. If a directory has multiple JSON files, they will be run together as a bot group.  
